@@ -29,7 +29,10 @@ while game_is_on:
         carManager.increase_car_speed()
         score_board.level_up()
 
-    if 1 <= score_board.level <= 4:
+    if 1 <= score_board.level <= 2:
+        carManager.create_cars()
+
+    elif 3 <= score_board.level <= 4:
         carManager.create_cars_level_upto4()
 
     elif 5 <= score_board.level <= 6:
