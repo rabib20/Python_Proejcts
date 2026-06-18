@@ -18,7 +18,7 @@ The game ends if the turtle collides with a moving car.
 
 ## Installation and Running
   1. Clone the repository:
-      git clone https://github.com/your-username/Python_Projects.git
+      git clone https://github.com/rabib20/Python_Proejcts.git
   2. Navigate to the project folder:
       cd Python_Projects/Turtle_crossing_game
   3. Run the game:
