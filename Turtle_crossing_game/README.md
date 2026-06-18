@@ -1,10 +1,10 @@
 
 # Turtle Crossing Game 🐢
 
-![Gameplay](images/gameplay.png)
+![Gameplay](image/gameplay.png)
 
 A simple arcade-style game built with Python Turtle.
 
-![Gameplay](images/gameplay.png)
+![Gameplay](image/gameplay2.png)
 
-![Game Over](images/gameover.png)
+![Game Over](image/gameover.png)
