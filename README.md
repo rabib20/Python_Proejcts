@@ -35,6 +35,7 @@ These projects help practice:
 ## Current Projects
 
 * Turtle Crossing Game
+* Pong Game
 
 More projects will be added as the collection grows.
 
