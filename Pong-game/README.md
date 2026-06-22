@@ -5,7 +5,7 @@ A classic two-player Pong game built with Python's `turtle` module. No external 
 
 ## Demo
 
-![Pong gameplay demo](https://github.com/rabib20/Python_Proejcts/edit/main/Pong-game/images/pong_game.gif)
+![Pong gameplay demo](images/pong_game.gif)
 
 ## How to Play
 
