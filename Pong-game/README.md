@@ -47,11 +47,17 @@ The ball bounces off the side walls, and every time it hits a paddle it speeds u
 
 This was a fun one to build the logic out for. A few things that stood out:
 
-- **Structuring it with classes** — splitting the game into `Ball`, `Paddle`, and `Scoreboard` classes made the code way easier to reason about than cramming everything into one script. Each piece just handles its own state.
-- **`turtle` has its own quirks** — it's not built for games, so getting smooth-ish movement and redraws to behave took some trial and error (lots of help from `screen.tracer(0)` and manual `screen.update()` calls).
-- **Keyboard input isn't as simple as "key pressed"** — using `onkeypress`/`onkeyrelease` to track movement state (instead of just moving on a single keypress) was the trick to getting continuous, smooth paddle movement instead of jerky single steps.
-- **Collision detection by distance** — checking `distance()` between the ball and paddle instead of pixel-perfect rectangle collision was a simpler approach, though it's a bit forgiving/imprecise compared to "real" collision detection.
-- **The game loop timing matters a lot** — getting the `time.sleep()` delay and ball speed increments balanced took some tweaking to keep the game playable instead of either too slow or instantly unplayable after a few hits.
+## What Was Learned Building This
+
+
+* Splitting the game into classes (`Ball`, `Paddle`, and `Scoreboard`) made the code easier to organize and maintain than one large script.
+
+* Tracking **key presses and releases** made paddle movement smooth and continuous.
+
+* **Collision detection** used distance checks between the ball and the paddle instead of pixel-perfect collisions.
+
+* **Game speed** required careful tuning. The timing needed the right balance to keep the game fun and playable.
+
 
 ## License
 
